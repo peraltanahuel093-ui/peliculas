@@ -23,6 +23,10 @@ nombre_pelicula5="American Pie"
 genero_pelicula5="Comedia"
 anio_pelicula5=1999
 rating_pelicula5=7.0
+nombre_pelicula6="Tiempos Modernos"
+genero_pelicula6="Comedia"
+rating_pelicula6=8.5
+anio_pelicula6=1936
 print("---- GÉNEROS-----")
 print("Acción")
 print("Comedia")
@@ -38,3 +42,5 @@ if (genero_pelicula4==genero_favorito):
     print(nombre_pelicula4)
 if (genero_pelicula5==genero_favorito):
     print(nombre_pelicula5) 
+if (genero_pelicula6==genero_favorito):
+    print(nombre_pelicula6) 

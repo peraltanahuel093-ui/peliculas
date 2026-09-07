@@ -1,7 +1,7 @@
 print("========================\n")
 print("Sugerencias de Peliculas\n")
 print("========================\n")
-usuario=input("Buen dia, cual es tu nombre?")
+usuario=input("Buen dia, cual es tu nombre? ")
 print("¿Que queres ver hoy,"+usuario+"?")
 nombre_pelicula="Rapido y furioso"
 genero_pelicula="Accion"
@@ -26,4 +26,15 @@ rating_pelicula5=7.0
 print("---- GÉNEROS-----")
 print("Acción")
 print("Comedia")
-genero_favorito=input("Que genero te gusta?")
+genero_favorito=input("¿Que genero te gusta? ")
+print ("Buscando Péliculas del Género: " +genero_favorito)
+if (genero_pelicula==genero_favorito):
+	print(nombre_pelicula)
+if (genero_pelicula2==genero_favorito):
+    print(nombre_pelicula2)
+if (genero_pelicula3==genero_favorito):
+    print(nombre_pelicula3)
+if (genero_pelicula4==genero_favorito):
+    print(nombre_pelicula4)
+if (genero_pelicula5==genero_favorito):
+    print(nombre_pelicula5) 
